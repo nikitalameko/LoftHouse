@@ -168,7 +168,7 @@ a:hover {
 .header-footer {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 30px;
+  gap: 100px;
 }
 
 .nav {
@@ -347,4 +347,38 @@ a:hover {
   line-height: 1.23;
   color: #E7E7E7;
   text-align: center;
+}
+
+.video {
+  text-align: center;
+}
+.video-link {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+.video-link:hover::before {
+  background: rgba(36, 43, 51, 0.7);
+}
+.video-link::before {
+  content: "";
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  background: rgba(36, 43, 51, 0.8);
+  transition: background-color 0.2s ease-in;
+}
+.video-icon {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 0.2s ease-in;
+}
+
+.video-link:hover .video-icon {
+  transform: translate(-50%, -50%) scale(1.2);
+  filter: saturate(1.5);
 }/*# sourceMappingURL=main.css.map */
