@@ -381,4 +381,15 @@ a:hover {
 .video-link:hover .video-icon {
   transform: translate(-50%, -50%) scale(1.2);
   filter: saturate(1.5);
+}
+
+.map-section {
+  padding: 180px 0;
+}
+.map-section-title {
+  margin-bottom: 88px;
+}
+.map {
+  height: 358px;
+  background: #626262;
 }/*# sourceMappingURL=main.css.map */
