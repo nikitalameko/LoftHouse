@@ -137,6 +137,11 @@ a:hover {
   font-weight: 700;
 }
 
+.link-bold {
+  color: #D4C17F;
+  font-weight: 700;
+}
+
 .header {
   display: flex;
   flex-direction: column;
@@ -173,6 +178,7 @@ a:hover {
 
 .nav {
   font-size: 14px;
+  letter-spacing: 0.05em;
 }
 .nav-list {
   display: flex;
@@ -395,7 +401,7 @@ a:hover {
 }
 
 .feedback {
-  padding-bottom: 180;
+  padding-bottom: 180px;
 }
 .feedback-title {
   margin-bottom: 38px;
@@ -404,5 +410,34 @@ a:hover {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 30px;
+  align-items: center;
+}
+
+.footer {
+  background-color: #2D343C;
+  padding: 72px 0 51px;
+  font-size: 14px;
+  letter-spacing: 0.05em;
+}
+.footer-row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+.footer-logo {
+  margin-top: -12px;
+}
+.footer-nav-list {
+  display: grid;
+  gap: 15px;
+}
+.footer-adress {
+  display: grid;
+  gap: 20px;
+}
+.footer-social {
+  display: flex;
+  -moz-column-gap: 22px;
+       column-gap: 22px;
   align-items: center;
 }/*# sourceMappingURL=main.css.map */
