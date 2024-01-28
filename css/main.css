@@ -212,6 +212,18 @@ a:hover {
 
 .benefits {
   padding: 120px 0;
+  position: relative;
+}
+.benefits::after {
+  content: "II";
+  left: calc(50% + 555px);
+  transform: translate(-50%, 0);
+  position: absolute;
+  top: 0;
+  line-height: 1.15;
+  opacity: 0.02;
+  font-size: 400px;
+  font-family: "Playfair Display", serif;
 }
 .benefits-row {
   display: flex;
@@ -231,6 +243,20 @@ a:hover {
   font-weight: 300;
 }
 
+.appartments {
+  position: relative;
+}
+.appartments::before {
+  content: "III";
+  right: calc(50% + 555px);
+  transform: translate(50%, 0);
+  position: absolute;
+  top: 0;
+  line-height: 1.15;
+  opacity: 0.02;
+  font-size: 400px;
+  font-family: "Playfair Display", serif;
+}
 .appartments-title {
   margin-bottom: 88px;
 }
@@ -357,6 +383,18 @@ a:hover {
 
 .video {
   text-align: center;
+  position: relative;
+}
+.video::after {
+  content: "IV";
+  left: calc(50% + 555px);
+  transform: translate(-50%, 0);
+  position: absolute;
+  top: 0;
+  line-height: 1.15;
+  opacity: 0.02;
+  font-size: 400px;
+  font-family: "Playfair Display", serif;
 }
 .video-link {
   position: relative;
@@ -391,6 +429,21 @@ a:hover {
 
 .map-section {
   padding: 180px 0;
+  position: relative;
+}
+.map-section::before {
+  content: "V";
+  z-index: -1;
+  right: calc(50% + 555px);
+  transform: translate(50%, 0);
+  position: absolute;
+  top: 0;
+  line-height: 1.15;
+  opacity: 0.02;
+  font-size: 400px;
+  font-family: "Playfair Display", serif;
+  top: 180px;
+  line-height: 1;
 }
 .map-section-title {
   margin-bottom: 88px;
