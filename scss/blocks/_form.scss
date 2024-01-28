@@ -37,5 +37,11 @@
         line-height: 1.23;
         color: $privacy-color;
         text-align: center;
+
+        &-bottom {
+            @include mediaTablet {
+                grid-row: 4 / 5;
+            } 
+        }
     }
 }
